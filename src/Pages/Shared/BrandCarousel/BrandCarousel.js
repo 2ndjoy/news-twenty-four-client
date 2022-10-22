@@ -1,8 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Brand1 from '../../Assets/Brands/Brand1.png';
-import Brand2 from '../../Assets/Brands/Brand2.png';
-
+import Brand1 from '../../../assets/brands/Brand1.png';
+import Brand2 from '../../../assets/brands/Brand2.png';
 
 const BrandCarousel = () => {
     return (
@@ -22,8 +21,7 @@ const BrandCarousel = () => {
                 />
             </Carousel.Item>
         </Carousel>
-    )
-
-}
+    );
+};
 
 export default BrandCarousel;
